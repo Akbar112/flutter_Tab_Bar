@@ -8,9 +8,9 @@ import'package:flutter/material.dart';
           child: new Column(
             children: <Widget>[
               new Padding(padding:new EdgeInsets.all(20.0),),
-              new Text("Apple", style: new TextStyle(fontSize:30.0),),
+              new Text("Apple", style: new TextStyle(fontSize:30.0, fontFamily:"Signika",),),
               new Padding(padding:new EdgeInsets.all(20.0),),
-              new Icon(Icons.smartphone, size: 90.0,)
+              new Image.asset("img/iPHONE.png", width: 500.0,)
             ],
           ),
         ),
